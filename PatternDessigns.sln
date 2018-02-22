@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternSimUDuck", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternMsdn", "ObserverPAtternMsdn\ObserverPatternMsdn.csproj", "{71CF9FD0-23B5-40F7-9DB1-7EDF66A4907A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternWeatherStationNetImplementations", "ObserverPatternWeatherStationNetImplementations\ObserverPatternWeatherStationNetImplementations.csproj", "{BA3BF3EB-A6C7-4809-9AF2-E594842F8466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{71CF9FD0-23B5-40F7-9DB1-7EDF66A4907A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71CF9FD0-23B5-40F7-9DB1-7EDF66A4907A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71CF9FD0-23B5-40F7-9DB1-7EDF66A4907A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3BF3EB-A6C7-4809-9AF2-E594842F8466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3BF3EB-A6C7-4809-9AF2-E594842F8466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3BF3EB-A6C7-4809-9AF2-E594842F8466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3BF3EB-A6C7-4809-9AF2-E594842F8466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
