@@ -1,3 +1,5 @@
 .vs/
-ObserverPattern/bin/
-ObserverPattern/obj/
+ObserverPatternWeatherStationManual/bin/
+ObserverPatternWeatherStationManual/obj/
+StrategyPatternSimUDuck/obj/
+StrategyPatternSimUDuck/bin/

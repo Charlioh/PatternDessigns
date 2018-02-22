@@ -1,5 +1,5 @@
 ﻿
-namespace ObserverPattern
+namespace ObserverPatternWeatherStationManual
 {
     public interface ISubject
     {
