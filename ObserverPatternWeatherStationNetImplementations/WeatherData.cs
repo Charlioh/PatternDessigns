@@ -12,12 +12,26 @@ namespace ObserverPatternWeatherStationNetImplementations
         private decimal HumidityValue { get; set; }
         private decimal Pressure { get; set; }
 
-        public void SetValues(decimal temp, decimal hum, decimal pres)
+        public WeatherData()
+        {
+
+        }
+
+        public WeatherData(decimal temp, decimal hum, decimal pres)
         {
             Temperature = temp;
             HumidityValue = hum;
             Pressure = pres;
         }
+
+        public void SetValues(decimal temp, decimal hum, decimal pres)
+        {
+            Temperature = temp;
+            HumidityValue = hum;
+            Pressure = pres;
+
+        }
+
 
 
     }

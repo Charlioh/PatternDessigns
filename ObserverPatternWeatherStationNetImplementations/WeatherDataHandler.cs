@@ -10,7 +10,8 @@ namespace ObserverPatternWeatherStationNetImplementations
 {
     public class WeatherDataHandler : IObservable<WeatherData>
     {
-        public List<IObserver<WeatherData>> Observers { get; set; }
+        private List<IObserver<WeatherData>> Observers { get; set; }
+        private List<WeatherData> Observables { get; set; }
 
         public WeatherDataHandler()
         {
@@ -26,5 +27,20 @@ namespace ObserverPatternWeatherStationNetImplementations
 
             return new Unsubscriber<WeatherData>(Observers, observer);
         }
+
+        public WeatherData NewReader()
+        {
+            var data =  new WeatherData();
+            Observables.Add(data);
+            return data;
+        }
+
+        public WeatherData NewReader(decimal temp, decimal hum, decimal pres)
+        {
+            var data = new WeatherData(temp, hum, pres);
+            Observables.Add(data);
+            return data;
+        }
+
     }
 }

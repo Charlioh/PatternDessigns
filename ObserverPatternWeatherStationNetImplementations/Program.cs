@@ -12,11 +12,18 @@ namespace ObserverPatternWeatherStationNetImplementations
     {
         static void Main(string[] args)
         {
-            var weatherReader = new WeatherData();
+            var weatherSubject = new WeatherDataHandler();
+            var displayer = new CurrentConditionsDisplay();
 
+            weatherSubject.Subscribe(displayer);
+
+            var weatherReader =  weatherSubject.NewReader();
             weatherReader.SetValues(80, 65, 30.4m);
+            var weatherReader2 = weatherSubject.NewReader(10,10,10.2m);
             weatherReader.SetValues(82, 70, 29.2m);
             weatherReader.SetValues(78, 90, 29.2m);
+
+
         }
     }
 }
