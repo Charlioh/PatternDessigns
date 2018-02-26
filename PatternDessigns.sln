@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternMsdn", "Obse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternWeatherStationNetImplementations", "ObserverPatternWeatherStationNetImplementations\ObserverPatternWeatherStationNetImplementations.csproj", "{BA3BF3EB-A6C7-4809-9AF2-E594842F8466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternFinantialApp", "ObserverPatternFinantialApp\ObserverPatternFinantialApp.csproj", "{E0C70E38-7614-47B5-9CB7-C0F34F06A050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternStarbuzz", "DecoratorPatternStarbuzz\DecoratorPatternStarbuzz.csproj", "{9BDD7CDF-9AB9-4E84-B72F-6C7DDF86F6EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{BA3BF3EB-A6C7-4809-9AF2-E594842F8466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA3BF3EB-A6C7-4809-9AF2-E594842F8466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA3BF3EB-A6C7-4809-9AF2-E594842F8466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C70E38-7614-47B5-9CB7-C0F34F06A050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C70E38-7614-47B5-9CB7-C0F34F06A050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C70E38-7614-47B5-9CB7-C0F34F06A050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C70E38-7614-47B5-9CB7-C0F34F06A050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDD7CDF-9AB9-4E84-B72F-6C7DDF86F6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDD7CDF-9AB9-4E84-B72F-6C7DDF86F6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDD7CDF-9AB9-4E84-B72F-6C7DDF86F6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDD7CDF-9AB9-4E84-B72F-6C7DDF86F6EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
