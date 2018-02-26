@@ -8,6 +8,6 @@ namespace DecoratorPatternStarbuzz
 {
     public abstract class CondimentDecorator : Beverage
     {
-        public abstract string GetDescription();
+        public override abstract string GetDescription();
     }
 }

@@ -8,9 +8,9 @@ namespace DecoratorPatternStarbuzz
 {
     public abstract class Beverage
     {
-        public string description = "Unknown Beverage";
+        public string description { get; set; }
 
-        public string GetDescription()
+        public virtual string GetDescription()
         {
             return description;
         }
