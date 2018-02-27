@@ -21,6 +21,6 @@ namespace FactoryPatternPizza
             return pizza;
         }
 
-        public abstract Pizza CreatePizza(string type)
+        public abstract Pizza CreatePizza(string type);
     }
 }

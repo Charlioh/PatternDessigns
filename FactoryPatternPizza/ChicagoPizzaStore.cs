@@ -8,7 +8,7 @@ namespace FactoryPatternPizza
 {
     public class ChicagoPizzaStore : PizzaStore
     {
-        public Pizza CreatePizza(string Item)
+        public override Pizza CreatePizza(string Item)
         {
             if (Item.Equals("cheese"))
             {

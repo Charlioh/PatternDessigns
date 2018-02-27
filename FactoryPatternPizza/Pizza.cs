@@ -31,7 +31,7 @@ namespace FactoryPatternPizza
             Console.WriteLine("Baking for 25 minutes at 350º");
         }
 
-        public void Cut()
+        public virtual void Cut()
         {
             Console.WriteLine("Cutting pizza into diagonal slices");
         }
