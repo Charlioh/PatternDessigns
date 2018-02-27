@@ -10,6 +10,9 @@ namespace FactoryPatternPizza
     {
         static void Main(string[] args)
         {
+            PizzaStore NyPizzaStore = new NYPizzaStore();
+
+            NyPizzaStore.OrderPizza("cheese");
         }
     }
 }

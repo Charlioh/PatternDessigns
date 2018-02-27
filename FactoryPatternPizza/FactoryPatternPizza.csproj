@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CaliforniaPizzaStore.cs" />
+    <Compile Include="ChicagoPizzaStore.cs" />
+    <Compile Include="NYPizzaStore.cs" />
+    <Compile Include="Pizza.cs" />
     <Compile Include="PizzaStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
