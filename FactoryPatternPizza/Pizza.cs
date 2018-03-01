@@ -8,23 +8,15 @@ namespace FactoryPatternPizza
 {
     public abstract class Pizza
     {
-        public string Name { get; set; }
-        public string Dough { get; set; }
-        public string Sauce { get; set; }
-        public List<string> Toppings { get; set; }
+        private string Name { get; set; }
+        public Dough Dough { get; set; }
+        public Sauce Sauce { get; set; }
+        public Veggies[] Veggies { get; set; }
+        public Cheese Cheese { get; set; }
+        public Pepperonni Pepperoni { get; set; }
+        public Clams Clams { get; set; }
 
-
-        public void Prepare()
-        {
-            Console.WriteLine("Prepareing " + Name);
-            Console.WriteLine("Tossing dough " + Dough);
-            Console.WriteLine("Adding Sauce " + Sauce);
-            Console.WriteLine("Adding Toppings ");
-            foreach (var Topping in Toppings)
-            {
-                Console.WriteLine("- " + Topping);
-            }
-        }
+        public abstract void Prepare();
 
         public void Bake()
         {
@@ -41,6 +33,19 @@ namespace FactoryPatternPizza
             Console.WriteLine("Place pizza in a official PizzaStore Box");
         }
 
-        
+        public void SetName (string name)
+        {
+            Name = name;
+        }
+
+        public string GetName()
+        {
+            return Name;
+        }
+
+        public override string ToString()
+        {
+            // code to print pizza here
+        }
     }
 }
