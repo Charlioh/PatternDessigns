@@ -7,7 +7,7 @@
             return new ReggianoCheese();
         }
 
-        public ICLams CreateClams()
+        public IClams CreateClams()
         {
             return new FreschClams();
         }

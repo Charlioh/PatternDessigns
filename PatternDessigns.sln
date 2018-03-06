@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternStarbuzz", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternPizza", "FactoryPatternPizza\FactoryPatternPizza.csproj", "{CE352ACC-F916-4E1B-89F8-BD3B2196D474}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPatternChocoboiler", "SingletonPatternChocoboiler\SingletonPatternChocoboiler.csproj", "{1440DED7-765E-4445-A66F-7BB361BFD6BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CE352ACC-F916-4E1B-89F8-BD3B2196D474}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE352ACC-F916-4E1B-89F8-BD3B2196D474}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE352ACC-F916-4E1B-89F8-BD3B2196D474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1440DED7-765E-4445-A66F-7BB361BFD6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1440DED7-765E-4445-A66F-7BB361BFD6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1440DED7-765E-4445-A66F-7BB361BFD6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1440DED7-765E-4445-A66F-7BB361BFD6BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

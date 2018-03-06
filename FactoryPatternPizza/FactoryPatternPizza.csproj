@@ -48,7 +48,12 @@
     <Compile Include="ChicagoPizzaStore.cs" />
     <Compile Include="ChicagoStyleCheesePizza.cs" />
     <Compile Include="ClamPizza.cs" />
+    <Compile Include="Ingredients\ICheese.cs" />
+    <Compile Include="Ingredients\IClams.cs" />
     <Compile Include="Ingredients\IDough.cs" />
+    <Compile Include="Ingredients\IPepperoni.cs" />
+    <Compile Include="Ingredients\ISauce.cs" />
+    <Compile Include="Ingredients\IVeggies.cs" />
     <Compile Include="IPizzaIngredientFactory.cs" />
     <Compile Include="NYPizzaIngredientFactory.cs" />
     <Compile Include="NYPizzaStore.cs" />
